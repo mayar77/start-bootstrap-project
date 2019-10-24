@@ -1,0 +1,317 @@
+body
+{
+    font-family: 'Roboto Slab',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+}
+.home
+{
+    
+    background-image: url(../images/header-bg.jpg);
+    background-attachment: fixed;
+    background-position: 100% 100%;
+    height: 700px;
+}
+.home h1
+{
+    font-size:75px;
+   
+    
+}
+
+.navbar-dark .navbar-nav .nav-link
+{
+    padding: 12px 17px;
+    
+    color:#fff;
+}
+.navbar-dark .navbar-nav .nav-link:hover
+{
+    color:#ffb606;
+}
+.navbar
+{
+   background-color: rgba(0,0,0,0.3)
+}
+.navbar-dark .navbar-brand
+{
+     color:#ffb606;
+}
+.navbar-brand
+{
+    color: #fed136;
+    font-size: 28px;
+    font-family: 'Kaushan Script', cursive;
+    
+}
+.home-caption h4
+{
+ font-size: 40px;   
+    
+}
+.home-caption a
+{
+    font-size: 18px;
+    
+}
+.title-port
+{
+    position: relative;
+    padding-bottom:5px;
+}
+.title-port:after
+{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #ffb606;
+    position: absolute;
+    top: 100%;
+    left: 50%
+      
+}
+
+.title-port:before
+{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #ffb606;
+    position: absolute;
+    top: 100%;
+    right:50%
+       margin-left:5px;
+}
+.layer-img
+{position: relative;
+    
+    
+    
+}
+.layer
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+       background-color: rgba(51, 122, 180, 0.58);
+            opacity:0;
+    transition: opacity 1s;
+}
+.layer-img:hover .layer
+{
+    opacity: 1;
+    
+}
+.card
+{
+    cursor: none;
+}
+.item1
+{
+    overflow: hidden;
+}
+.item1 .layer-item
+{
+    position: absolute;
+    background-color:rgba(0,33,71,0.7);
+   
+    bottom:100%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    
+    transition: bottom 1s;
+}
+.item1:hover .layer-item
+{
+    bottom: 5%;
+}
+ul li
+{
+    display: inline;
+}
+.item-info
+{
+    position: absolute;
+    background-color: white;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    
+   
+      transition: bottom 1s;
+}
+.item-info p
+{
+    font-size: 17px;
+    font-weight:600;
+    
+   color : #ffb606;
+}
+
+.item1:hover .item-info
+{
+     bottom: -100%
+}
+.layer-item a
+{
+    
+    color: #ffb606;
+}
+.card-img-overlay 
+{
+    background-color: rgba(0,0,0,1);
+        transition: all 1s;
+}
+.card-img-overlay:hover
+{
+    background-color: rgba(0,0,0,0.3);
+}
+.card-car
+{
+    
+    background-color: #1ec1d9;
+}
+.card-car:hover
+{
+ background-color: rgba(51, 122, 180, 0.58);
+}
+.card-i
+{
+          background-color:#6c757d;
+    
+}
+.card-i:hover
+{
+    rgba(233, 72, 174, 0.55);
+}
+.card-v
+{
+   background-color: #10c45c;
+ 
+}
+.card-v:hover
+{
+  rgba(233, 72, 174, 0.55);   
+}
+.card-car1
+{
+    
+    background-color: #fd7e14;
+}
+.card-car1:hover
+{
+ background-color: rgba(51, 122, 180, 0.58);
+}
+.card-i1
+{
+          background-color: #e948ae;
+    
+}
+.card-i1:hover
+{
+    rgba(233, 72, 174, 0.55);
+}
+.card-v1
+{
+   background-color: #10b38d;
+ 
+}
+.card-v1:hover
+{
+  rgba(12, 12, 150, 0.55);   
+}
+.card-car2
+{
+    
+    background-color: #dc3545;
+}
+.card-car2:hover
+{
+ background-color: rgba(51, 122, 180, 0.58);
+}
+.card-i2
+{
+          background-color: #ffc107;
+    
+}
+.card-i2:hover
+{
+     background-color:rgba(233, 72, 174, 0.55);
+}
+.card-v2
+{
+   background-color: #20c997;
+ 
+}
+.card-v2:hover
+{
+   background-color:rgba(12, 12, 150, 0.55);   
+}
+.our-contact
+{
+    
+   background-color: #212529; 
+    background-image: url(../images/map-image.png);
+    background-attachment: fixed;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.portfolio
+{
+    background-color: #f9f9f9;
+  
+     font-family: 'Kaushan Script', cursive;
+}
+.portfolio h1
+{
+      font-family: 'Poppins', sans-serif;
+}
+.portfolio p
+{
+  font-weight: 400;
+    font-style: italic;
+    text-transform: none;
+    font-family: 'Droid Serif',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';  
+    
+}
+.top-cag
+{
+    background-color: #f9f9f9;
+    font-family: 'Poppins', sans-serif; 
+}
+::selection {
+    background: #fed136;
+    text-shadow: none;
+}
+.hrText hr
+{
+    color:#ffb606;
+    background-color:#ffb606;
+    height: 0.08rem;
+    width: 10rem;
+   
+}
+.hrText hr:hover
+{
+  
+    width:12rem;
+   
+}
+.timeline
+{
+    
+    
+    margin:0px auto;
+}
+.textTimeline
+{
+    float: left;
+    
+}
+.imgTimeline
+{
+    
+    float: left;
+}
